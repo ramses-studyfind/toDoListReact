@@ -20,10 +20,7 @@ function FormCom(props) {
 
     setTaskName('');
 
-    // Save the task to localStorage
-    const storedTasks = JSON.parse(localStorage.getItem('tasks')) || [];
-    const updatedTasks = [...storedTasks, newTask];
-    localStorage.setItem('tasks', JSON.stringify(updatedTasks));
+
   };
 
   return (
@@ -49,3 +46,4 @@ function FormCom(props) {
 }
 
 export default FormCom;
+
