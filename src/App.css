@@ -1,0 +1,105 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #CEFDFF;
+}
+
+.form {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+label{
+  margin:10px;
+}
+.fixed-menu {
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #Eb9486;
+  color:#CEFDFF
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+  justify-content: center; 
+    align-items: center;
+  
+}
+
+.button-group fieldset {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+.button-group label {
+  margin-right: 10px;
+}
+
+.todos {
+  margin-top: 140px; 
+  padding: 20px;
+  
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #999;
+}
+
+h1 {
+  font-size: 24px;
+  margin-top: 0;
+}
+
+p {
+  margin: 0;
+  line-height: 1.5;
+}
+button{
+  padding:6px;
+  margin:3px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px #CEFDFF;
+  background-color: #CEFDFF;
+ 
+}
+input{
+  padding:6px;
+  margin:3px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px #CEFDFF;
+  background-color: #CEFDFF;
+
+}
+#taskName{
+  background-color: #CEFDFF;
+}
+.subFormField{
+    border-radius: 8px;
+    border-color: #CEFDFF;
+    border-style: solid;
+    
+}
+#taskList{
+  padding-bottom:5px;
+  font-size: 1.2em;
+}
+h1{
+  font-size: 2em
+}
